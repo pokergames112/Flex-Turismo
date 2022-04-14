@@ -49,8 +49,8 @@ header .list-items{
 
 .list-items li a{
     color: #fff;
-    border-style: solid;
-    font-size: x-large;
+    border-style: double;
+    font-size:larger;
     font-family: Arial, Helvetica, sans-serif;
     
 
