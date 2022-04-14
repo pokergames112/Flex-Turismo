@@ -41,14 +41,19 @@ header{
 
 header .list-items{
     display: flex;
-    max-width: 260px;
     width: 100%;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: right;
+    
+    
 }
 
 .list-items li a{
     color: #fff;
+    border-style: solid;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
     
 }
 
