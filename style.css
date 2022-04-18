@@ -59,21 +59,16 @@ header .list-items{
 
 
 header menu{
-    justify-content: space-between;
+    justify-content: space-around
 }
 
 .apresentacao{
     height: 100vh;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
-.apresentacao{
-    height: 100vh;
-    align-items: center;
-    justify-content: space-between;
-}
 
 .apresentacao .texto-apresentacao{
     min-height: 200px;
@@ -99,10 +94,18 @@ header menu{
     margin-bottom: 10px;
 }
 
+.list-items a{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 5px;
+}
+
 #quem-somos{
     flex-direction: row-reverse;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #quem-somos h2{
